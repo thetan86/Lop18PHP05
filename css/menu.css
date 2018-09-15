@@ -1,0 +1,28 @@
+#nav_menu ul {
+	list-style-type: none;
+	margin-left: 1.2em;
+	margin-bottom: 1.5em;
+}
+#nav_menu ul li {
+	margin-bottom: .5em;
+	border: 2px solid blue;
+	float: left;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration:  none;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+}
+#nav_menu ul li a .current {
+	color: blue;
+
+}
+#nav_menu ul li a .lastitem {
+	border-right: none;
+}

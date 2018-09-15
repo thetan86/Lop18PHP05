@@ -1,0 +1,50 @@
+* {margin: 0; padding: 0;}
+
+body {
+	width: 900px;
+	margin: 15px auto;
+	border: 1px solid red;
+	height: 490px;
+}
+
+header {
+	clear: both;
+	height: 40px;
+	border: 1px solid black;
+	width: 100%;
+}
+
+section {
+	width: 66%;
+	height: 400px;
+	border-right: 2px solid green;
+	float: left;
+}
+aside {
+	width: 33%;
+	float: right;
+}
+footer {
+	clear: both;
+	height: 50px;
+	border: 1px solid black;
+}
+body {
+	background-color: grey;
+}
+@media screen and (max-width: 906px) { 
+	body { 
+	background-color: red; }
+	}
+@media screen and (max-width: 768px) { 
+	body { 
+	background-color: orange; }
+	}
+@media screen and (max-width: 550px) { 
+	body { 
+	background-color: yellow; }
+	}
+@media screen and (max-width: 320px) { 
+	body { 
+	background-color: green; }
+	}
